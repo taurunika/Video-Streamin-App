@@ -1,0 +1,56 @@
+body{
+    background-color: #0093af;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+#main-title-div h1{
+    color: #fdff00;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+#card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px;
+}
+
+.video-card-title{
+    padding: 30px 20px;
+}
+.video-card-title:hover{
+    text-decoration: underline;
+}
+.playlist-card{
+    width: calc(25% - 16px);
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 8px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.playlist-card > a{
+    text-decoration: none;
+    color: black;
+}
+
+.thumbnail{
+    width: 100%;
+    display: block;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.video-card-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+#progress-bar{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    display: none;
+}
